@@ -2,7 +2,22 @@
 #1. Create a dictionary called zodiac with the following inforation.  
 # Each key is the name of the zodiac
 
-
+zodiac = {
+"Aries": "The Warrior", 
+"Taurus": "The Builder", 
+"Gemini": "The Messenger ",
+"Cancer": "The Mother", 
+"Leo": "The King", 
+"Virgo": "The Analys", 
+"Libra": "The Judge", 
+"Scorpio": "The Magician", 
+"Sagittarius": "the Gypsy", 
+"Capricorn": "the Father", 
+"Aquarius": "The Thinker",
+"Pisces": "TheMystic" 
+}
+all_keys = zodiac.keys()
+print(all_keys)
 # Aries - The Warrior 
 # Taurus - The Builder 
 # Gemini - The Messenger 
@@ -17,7 +32,8 @@
 # Pisces - TheMystic 
 
 #1a. Retrieve information about your zodiac from the zodiac dictionary
-
+my_sign = zodiac["Aquarius"]
+print(my_sign)
 #2. Given the following dictionary
 
 phonebook_dict = {
@@ -32,6 +48,14 @@ phonebook_dict = {
 # 2d. Change Bob's phone number to '968-345-2345'.
 # 2e. Print all the phone entries.
 
+print(phonebook_dict["Elizabeth"])
+phonebook_dict["Kareem"] = "938-489-1234"
+del phonebook_dict["Alice"]
+phonebook_dict["Bob"] = "968-345-2345"
+print(phonebook_dict.keys(), ":", phonebook_dict.values())
+
+for k, v in phonebook_dict.items():
+  print(f"{k}: {v}")
 
 # 3. Nested dictionaries
 
@@ -56,7 +80,10 @@ ramit = {
 #3b. Write a python expression that gets the first of Ramit's interests.
 #3c. Write a python expression that gets the email address of Jasmine.
 #3d. Write a python expression that gets the second of Jan's two interests.
-
+print(ramit["email"])
+print(ramit["interests"][0])
+print(ramit["friends"][0]["email"])
+print(ramit["friends"][1]["interests"][1])
 
 
 # 4. Letter Summary
