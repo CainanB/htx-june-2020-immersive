@@ -1,0 +1,42 @@
+.rel{
+    /* background-color: rgb(247, 247, 122); */
+    position: relative;
+    /* bottom: 50px; */
+    left: 100px;
+    width: 700px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+img{
+    height: 200px;
+    border-radius: 10%;
+}
+
+#kittens{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#parent{
+    background-color: skyblue;
+    height: 300px;
+    position: relative;
+}
+
+#puppy{
+    position: absolute;
+    top: 40px;
+    z-index: 10;
+}
+
+#navbar{
+    height: 60px;
+    background-color: yellow;
+    /* position: fixed; */
+    width:100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
