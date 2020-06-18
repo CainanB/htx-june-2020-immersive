@@ -1,0 +1,128 @@
+/* lab */
+
+*{
+    margin: 0;
+}
+/*
+.container{
+    
+    height: 100vh;
+    background-color: turquoise;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.item{
+    width: 150px;
+    height: 150px;
+    background-color:tomato;
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-grow: 1; */
+
+/* }
+
+.alignTop{
+    align-self:flex-start
+}
+
+.alignBottom{
+    align-self: flex-end;
+}
+.alignStretch{
+    align-self: stretch;
+}
+
+.fg2{
+    flex-grow: 2;
+}
+
+.fg3{
+    flex-grow: 3;
+}
+
+.order1{
+    order:1;
+}
+.order2{
+    order:2;
+}
+.order3{
+    order:3;
+}
+.order1{
+    order:1;
+} */ 
+
+
+/* .header{
+    background-color: purple;
+    height: 200px;
+}
+
+main{
+    height: 400px;
+    background-color: plum;
+    display: flex;
+    align-items: stretch;
+}
+
+footer{
+    height: 200px;
+    background-color: green;
+}
+
+.nav{
+    width: 20vw;
+    background-color: orange;
+}
+
+.innerMain{
+    width: 60vw;
+    background-color: peachpuff;
+}
+
+.ads{
+    width: 20vw;
+    background-color: red;
+} */
+
+/* li{
+    display: inline;
+}
+
+ul{
+    display: inline;
+} */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: skyblue;
+    height: 60px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li:hover{
+    background-color: yellow;
+}

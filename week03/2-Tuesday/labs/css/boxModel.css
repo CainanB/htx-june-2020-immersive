@@ -15,9 +15,10 @@
 }
 .box1{
     float:left;
-    width: 300px;
+    width: 280px;
     height: 400px;
     background-color: thistle;
+<<<<<<< HEAD
     /* padding-right: 10px;
     margin-right: 10px; */
     padding: 30px;
@@ -25,6 +26,16 @@
     overflow: hidden;
     /* margin-right: 20px; */
     box-sizing: border-box;
+=======
+    /* padding-right: 10px; */
+    margin-right: 20px;
+    border: solid 5px red;
+    padding: 30px;
+    overflow: hidden;
+    box-sizing: border-box;
+    
+    
+>>>>>>> 2cfdda80a2b8c157577816c9cbdc6e5c60c6bc29
 }
 
 .box1a{
@@ -66,8 +77,11 @@
     background-color:teal;
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 2cfdda80a2b8c157577816c9cbdc6e5c60c6bc29
 /* div{
     background-color: cyan;
     border: 2px solid black;
@@ -75,6 +89,7 @@
     height: 50px;
     display: inline;
 } */
+<<<<<<< HEAD
   span{
     background-color: yellow;
     border: 2px solid black;
@@ -91,11 +106,34 @@ a{
     width: 300px;
     display: inline-block;
 }
+=======
+
+span{
+background-color: yellow;
+border: 2px solid black;
+height: 50px;
+padding: 10px;
+margin: 15px;
+display:block;
+}
+
+a{
+background-color: orange;
+border: 2px solid orange;
+height: 50px;
+width: 300px;
+/* padding: 20px; 
+margin: 15px; */
+display:inline-block;
+}
+
+>>>>>>> 2cfdda80a2b8c157577816c9cbdc6e5c60c6bc29
 img{
     height: 300px;
     margin-left: auto;
     margin-right: auto;
     display: block;
+<<<<<<< HEAD
 }
 #content{
     width: 100%;
@@ -107,4 +145,20 @@ img{
 }
 body{
     margin:0;
+=======
+    
+}
+
+#content{
+width: 100%;
+background-color: rgb(9, 80, 70);
+padding: 20px;
+/* margin-left: auto;
+margin-right: auto; */
+
+}
+
+body{
+    /* margin:0px; */
+>>>>>>> 2cfdda80a2b8c157577816c9cbdc6e5c60c6bc29
 }
