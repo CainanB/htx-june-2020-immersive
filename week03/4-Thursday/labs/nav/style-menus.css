@@ -1,0 +1,87 @@
+/*
+The primary stylesheet for Flexbox Menu Demo web page. This sheet pulls in all the components in order of appearance.
+*/
+
+@import url('CSS/reset.css');
+@import url('CSS/accessibility.css');
+@import url('CSS/layout.css');
+@import url('CSS/typography.css');
+@import url('CSS/masthead.css');
+@import url('CSS/nav-base.css');
+@import url('CSS/nav-single-level.css');
+@import url('CSS/nav-advanced.css');
+@import url('CSS/nav-multi-level.css');
+@import url('CSS/nav-mixed.css');
+@import url('CSS/nav-social.css');
+
+.flex{
+    display: flex;
+}
+.flex1{
+    flex:1;
+}
+.flex2{
+    flex:2;
+}
+.flex3{
+    flex:3;
+}
+.flex4{
+    flex:4;
+}
+
+.singleMenuList{
+    justify-content: space-between;
+    
+}
+.singleMenuList li{
+    padding: 5px;
+}
+
+.singleMenuLink{
+    flex-direction: row;
+}
+
+.socialMediaMenuList{
+    justify-content: flex-end;
+}
+
+.stretch{
+    justify-content: stretch;
+}
+.fr{
+    flex-direction: row;
+}
+.block{
+    display: block;
+}
+.fontBig{
+    font-size: 36px;
+    
+}
+.ismall{
+    font-size: 16px;
+    font-style: italic;
+}
+
+.linkDiv{
+    display: inline-block
+}
+#linkTag1{
+    display: flex;
+}
+#linkTag2{
+    display: flex;
+}
+#linkTag3{
+    display: flex;
+}
+#linkTag4{
+    display: flex;
+}
+.aIcon{
+    padding-top:5px;
+    padding-left:5px;
+    padding-top:5px;
+    padding-right:10px;
+}
